@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.buildorders.Zvz" 
+    android:background="@color/silver" >
+
+					<Button
+					    android:id="@+id/button1"
+					    android:layout_width="wrap_content"
+					    android:layout_height="wrap_content"
+					    android:layout_alignParentBottom="true"
+					    android:layout_centerHorizontal="true"
+					    android:layout_marginBottom="21dp"
+					    android:onClick="home"
+					    android:text="Back" />
+
+					<TextView
+					    android:id="@+id/textView1"
+					    android:layout_width="wrap_content"
+					    android:layout_height="wrap_content"
+					    android:layout_alignParentTop="true"
+					    android:layout_centerHorizontal="true"
+					    android:layout_marginTop="20dp"
+					    android:text="ZVZ"
+					    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+					<ScrollView
+					    android:layout_width="wrap_content"
+					    android:layout_height="wrap_content"
+					    android:layout_above="@+id/button1"
+					    android:layout_below="@+id/textView1" >
+					    
+					<TextView
+					    android:id="@+id/textView2"
+					    android:layout_width="wrap_content"
+					    android:layout_height="wrap_content"
+					    android:layout_below="@+id/textView1"
+					    android:layout_marginTop="27dp"
+					    android:text="9 overlord \n
+15 hatch \n
+15 pool \n
+17 overlord \n
+@pool 2 queen, 2 zerglings, 1 spine \n
+			crawler \n
+@queens 2 more queens \n
+36 double gas \n
+@100 gas lair, double evo, roach \n
+			warren, 2 extractors \n
+@evo chamber +1 miss +1 armor \n
+@lair roach speed \n
+make roaches and oversears \n
+start a 3rd base but dont drone it \n
+\n
+\n
+\n"
+					    android:textAppearance="?android:attr/textAppearanceMedium" />
+					</ScrollView>
+
+</RelativeLayout>

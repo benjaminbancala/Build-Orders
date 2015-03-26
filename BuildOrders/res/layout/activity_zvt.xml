@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.buildorders.Zvt" 
+    android:background="@color/silver" >
+
+					<Button
+					    android:id="@+id/button1"
+					    android:layout_width="wrap_content"
+					    android:layout_height="wrap_content"
+					    android:layout_alignParentBottom="true"
+					    android:layout_centerHorizontal="true"
+					    android:layout_marginBottom="21dp"
+					    android:onClick="home"
+					    android:text="Back" />
+
+					<TextView
+					    android:id="@+id/textView1"
+					    android:layout_width="wrap_content"
+					    android:layout_height="wrap_content"
+					    android:layout_alignParentTop="true"
+					    android:layout_centerHorizontal="true"
+					    android:layout_marginTop="20dp"
+					    android:text="ZVT"
+					    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+					
+					
+					<ScrollView
+					    android:layout_width="wrap_content"
+					    android:layout_height="wrap_content"
+					    android:layout_above="@+id/button1"
+					    android:layout_below="@+id/textView1" >
+					    
+					<TextView
+					    android:id="@+id/textView2"
+					    android:layout_width="wrap_content"
+					    android:layout_height="wrap_content"
+					    android:layout_below="@+id/textView1"
+					    android:layout_marginTop="27dp"
+					    android:text="9 overlord \n
+15 hatch \n
+16 pool \n
+17 overlord \n
+@Pool 2 queen 2 ling \n
+@Queen 2 queen \n
+36 double gas \n
+@100 gas lair, double evo, roach, 2 more extractors \n
+@evo chambers +1 melee +1 armor \n
+@roach warren couple of roaches, roach speed, 3rd hatch \n
+	and baneling nest and metabolic boost \n
+@baneling nest get baneling speed and overlord speed \n
+@+1 +1, start +2 +2 and infestation pit \n
+@3 base saturation make roaches banes lings \n
+@infestation pit get hive, macro hatch \n
+@hive ultra cavern, adrenal glands, +3 +3 \n
+@ultra cavern +armor upgrade and spam ultras \n 
+\n
+\n
+\n"
+					    android:textAppearance="?android:attr/textAppearanceMedium" />
+					</ScrollView>
+
+</RelativeLayout>

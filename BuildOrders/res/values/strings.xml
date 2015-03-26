@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Build Orders</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="benb">By Ben Bancala</string>
+    <string name="sc">Starcraft2 Zerg</string>
+    <string name="bo">Build Orders</string>
+    <string name="title_activity_zvz">Zvz</string>
+    <string name="zvz">ZVZ</string>
+    <string name="title_activity_zvp">Zvp</string>
+    <string name="title_activity_zvt">Zvt</string>
+    <string name="title_activity_zerg">Zerg</string>
+
+</resources>

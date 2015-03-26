@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.buildorders.Zvp" 
+    android:background="@color/silver" >
+
+					<Button
+					    android:id="@+id/button1"
+					    android:layout_width="wrap_content"
+					    android:layout_height="wrap_content"
+					    android:layout_alignParentBottom="true"
+					    android:layout_centerHorizontal="true"
+					    android:layout_marginBottom="21dp"
+					    android:onClick="home"
+					    android:text="Back" />
+
+					<TextView
+					    android:id="@+id/textView1"
+					    android:layout_width="wrap_content"
+					    android:layout_height="wrap_content"
+					    android:layout_alignParentTop="true"
+					    android:layout_centerHorizontal="true"
+					    android:layout_marginTop="20dp"
+					    android:text="ZVP"
+					    android:textAppearance="?android:attr/textAppearanceLarge" />
+					
+					<ScrollView
+					    android:layout_width="wrap_content"
+					    android:layout_height="wrap_content"
+					    android:layout_above="@+id/button1"
+					    android:layout_below="@+id/textView1" >
+
+					<TextView
+					    android:id="@+id/textView2"
+					    android:layout_width="wrap_content"
+					    android:layout_height="wrap_content"
+					    android:layout_above="@+id/button1"
+					    android:layout_below="@+id/textView1"
+					    android:layout_marginTop="27dp"
+					    android:maxLines="1000"
+					    android:scrollbars="vertical"
+					    android:text="9 overlord \n
+15 2nd Hatch \n
+16 Pool \n
+16 Overlord \n
+20 Queens when hatch finishes \n
+24 2 sets of lings \n
+26 Overlord \n
+27 3rd Hatch \n
+31 Overlord \n
+33 Overlord \n
+5:40 first 2 gas \n
+6:40 second 2 gas \n
+6:40 roach warren \n
+@100 gas: lair \n
+@100 gas: meta boost \n
+8:00 benchmark: should have 65-70 supply \n
+8:30 hydra den \n
+8:35 10-16 lings \n
+@hydra den: grooved spines \n
+9:00 12-15 hydras \n
+9:45 move out #1 \n
+10:35 roach speed, infest pit, hydra speed, 2 evos \n
+10:35 third 2 gas \n
+11:30 hive \n
+11:30 4th hatch \n
+@hive: 3-4 vipers \n
+14:00 consume \n
+14:30 move out #2 \n
+14:30 5th Hatch and Spire \n
+15:00 Spam Mutas \n
+15:30 move out #3 \n
+\n
+\n "
+					    android:textAppearance="?android:attr/textAppearanceMedium" />
+					
+					</ScrollView>
+
+</RelativeLayout>
